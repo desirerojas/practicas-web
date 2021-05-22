@@ -1,0 +1,61 @@
+body {
+  background-color: yellowgreen;
+}
+.contenedor {
+  background-color: violet;
+}
+.caja1 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: teal;
+}
+/*agregar margenen para cada etiquetas div*/
+/*agregar margenen a la izquierda*/
+.caja2 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: teal;
+  margin-left: 40px;
+}
+/*agregar margenen a la derecha*/
+.caja3 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: indigo;
+  margin-right: 40px;
+}
+/*agregar margenen a la parte superior*/
+.caja4 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: indigo;
+  margin-top: 40px;
+}
+/*agregar margenen a la parte inferior*/
+.caja5 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: indigo;
+  margin-bottom: 40px;
+}
+/*agregar margenen personalisados*/
+.caja6 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: indigo;
+  margin: 20px 80px 30px 10px;
+}
+/*agregar el div al medio de todo*/
+.caja7 {
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: indigo;
+  margin: auto;
+}

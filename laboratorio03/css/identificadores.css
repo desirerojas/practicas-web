@@ -1,0 +1,21 @@
+#menuprincipal {
+  color: orangered;
+  font-weight: bolder;
+  font-size: larger;
+}
+#titulo1 {
+  color: peru;
+  font-weight: bolder;
+}
+#titulo2 {
+  color: powderblue;
+  font-weight: bolder;
+}
+#parrafo1 {
+  color: plum;
+  font-style: italic;
+}
+#parrafo2 {
+  color: rosybrown;
+  font-weight: bolder;
+}

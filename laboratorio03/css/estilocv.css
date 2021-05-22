@@ -1,0 +1,55 @@
+body {
+  background-color: ghostwhite;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkmagenta;
+  font-weight: border;
+}
+h2 {
+  color: lightpink;
+  font-weight: bolder;
+}
+p {
+  font-style: italic;
+  font-weight: bolder;
+  color: mediumorchid;
+}
+h3,
+h4 {
+  color: lightpink;
+  font-weight: border;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: larger;
+}
+
+i {
+  font-size: 20px;
+}
+
+.fa-instagram- {
+  font-size: 500px;
+}
+.degradado2 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040
+  );
+}
+i {
+  font-size: 20px;
+}
+
+.fa-facebbok- {
+  font-size: 20px;
+  color: #3b5998;
+}

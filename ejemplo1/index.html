@@ -1,58 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ejemplo 1 HTML</title>
-    <!--inicio del contenedor-->
-    <div>
-        <header>
-        <!--inicie el menu principal-->
-        <section></section>
-        <nav>
-            <ul>
-                <li><a href="a">inicio</a></li>
-                <li><a href="a">acerca de</a></li>
-                <li><a href="a">cursos</a></li>
-                <li><a href="a">contactos</a></li>
-            </ul>
-        </nav>
-        <!--fin del menu principal-->
-    </header>
-    <!--fin del header-->
-    <!--inicia la seccion principal-->
-        <section>
-            <!--!inicia la imagen-->
-            <div>
-                <img src="img/FACEBOOK.jpg"alt="edicio moderno">
-                <img src="img/semillitas.png"alt="edicio moderno"><br>
-                
-            </div>
-                <!--fin de la imagen-->
-                <!--inicio publicacion-->
-        <section>
-        <!--inicie el articulo -->
-        <article>
-    <h2>INICIO</h2>
-   
-    <p>
-        En Jardín Semillitas Del Saber se busca amplificar personas eficaces con una elevada autoestima, razón, aptitudes sociales y una estable enseñanza académica, moral y emocional para que puedan lograr el éxito personal y profesional dentro de una sociedad actual y cambiante.
-        
-    </p>
-    <img src="img/SABER.jpg"alt="edicio moderno">
-        </article>
-        <!--fin del articulo-->
-        </section>
-        <!--fin de publicaciones-->
-        </section>
-        <!--fin del la seccion principal-->
-        <aside></aside>
-        <footer></footer>
-    </div>
-        <!--fin del contebedor-->
+    <title>ejemplo 1- html</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" type="txt/css" >
+<link rel="stylesheet"  type="txt/css" href="css/font-awesome.min.css">
+<link rel="stylesheet"  type="txt/css" href="css/normalize.css">
+<link rel="stylesheet" type="txt/css" href="css/estilo.css">
 </head>
 <body>
+     <!--inicie el menu -->
+     <header>
+         <div class="contenedor">
+             <div>
+                 <nav>
+                <a href="#">Acerca de</a>
+                <a href="#">Cursos</a>
+                <a href="#">Contactos</a>
+                 </nav> 
+             </div>
+    <div  class="contenedortexto">
+         <div class="texto"> 
+             <h1 class="nombre">Colegio Inicial-Rimac</h1>
+             <h2 class="profesion">I.E.P.SEMILLETAS DEL SABER</h2>
+         </div>
+    </div>
+           
+         </div>
+       </header>
+    <!--fin del header-->
+    <!--inicia la seccion principal-->
+<section class="principal">
+     <!--inicia la seccion de acerca de-->   
+     <section class="acercade">
+        <div class="foto">
+            <img src="img/semillitas.png"  alt="semillitas del saber">
+        </div>
+
+        <div class="texto">
+            <h3 class="titulo">acerca de </h3>
+            <p>En Jardín Semillitas Del Saber se busca amplificar personas eficaces con una elevada autoestima, razón, aptitudes sociales y una estable enseñanza académica, moral y emocional para que puedan lograr el éxito personal y profesional dentro de una sociedad actual y cambiante.</p>
+        </div>
+    </section>
+            <!--fin de la seccion acerca de-->
+            <!--inicia la seccion cursos-->
+<section class="trabajos">
+<div class="contenedor">
+    <h3 class="titulo">cursos</h3>
+    <div clas="contenedortrabajos">
+
+        <div class="trabajo">
+            <div class="imagen">
+                <img src="img/cursos-psicomotricidad.jpg" alt="psicomotricidad"
+            </div>
+            <div class="descripcion">
+                <p class="nombre">psicomotricidad</p>
+                <p class="categoria">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="trabajo">
+            <div class="imagen">
+                <img src="img/leyendo-sentados.jpg" alt="lectoescritura"
+            </div>
+            <div class="descripcion">
+               <p class="nombre">lectoescritura</p> 
+               <p class="categoria">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="trabajo">
+            <div class="imagen">
+                <img src="img/ingles_w1140.png" alt="ingles"
+            </div>
+            <div class="descripcion">
+                <p class="nombre">ingles</p>
+                <p class="categoria">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="trabajo">
+            <div class="imagen" >
+                <img src="img/danza.jpg" alt="danza"
+            </div>
+            <div class="descripcion">
+               <p class="nombre"> danza</p>
+               <p class="categoria">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="trabajo">
+            <div class="imagen">
+                <img src="img/ballet.jpg" alt="ballet"
+            </div>
+            <div class="descripcion" >
+              <p class="nombre">ballet</p>  
+              <p class="categoria">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="trabajo">
+            <div class="imagen">
+                <img src="img/Cocina-para-niños.jpg" alt="minichef"
+            </div>
+            <div class="descripcion">
+                <p class="nombre" >minichef</p>
+                <p class="categoria">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        </div>
+
+     
+    </div>
+</div>
+       </section>
+       <!--fin de  la seccion cursos-->
+
+</section>
+       <!--fin de la seccion principal-->
+<!--inicia el footer-->
+       <footer>
+<div class="contactanos">
+    <h3 class="titulo">contactanos</h3>
+    <fore class="formulario" >
+        <input type="text" placeholder="nombre y apellido" required>
+        <input type="imail" placeholder="Correo" required>
+        <textarea placeholder="Mensaje"></textarea>
+        <input type="submit" value="Enviar">
+
+       
+    </fore>
+</div>
+<section class="redessociales">
+    <div class="contenedor">
+        <a class="youtube"  href="#"><i class="fa fa-youtube"></i></a>
+        <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="whatsapp" href="#"><i class="fa fa-whatsapp"  ></i></a>
+    </div>
+</section>
+</footer>
     
 </body>
 </html>

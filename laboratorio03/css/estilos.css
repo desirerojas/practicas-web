@@ -1,0 +1,107 @@
+/*esto es un comentario en CSS*/
+/*aplicaremos un estilo para darle un color de fondo a la pagina*/
+body {
+  background-color: silver;
+}
+
+/*Aplicamos colores a cada una de las secciones de la pagina*/
+#contenedor {
+  background-color: black;
+}
+
+#cabecera {
+  background-color: blueviolet;
+}
+
+#menu {
+  background-color: cornflowerblue;
+}
+
+#cuerpo {
+  background-color: darkcyan;
+}
+
+#pie {
+  background-color: darksalmon;
+}
+
+/*Agregamos una imagen de fondo a un parrafo*/
+#parrafoimagen {
+  background-image: url("/img/foto1.jpg");
+}
+
+/*agregamos un color de fondo con transparencia para los parrafos*/
+.parrafotransparencia {
+  background-color: black;
+  opacity: 75%;
+  color: white;
+}
+/*afreganos una imagen de fondo al parrafo pero quiero que la imagen se repita*/
+#parrafoimagenrepetir {
+  background-image: url("/img/html5ycss3.png");
+}
+/*afreganos una imagen de fondo al parrafo pero quiero que la imagen se repita*/
+#parrafoimagennorepetir {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: no-repeat;
+}
+/*afreganos una imagen de fondo al parrafo pero le cambiamos el tamaño*/
+#parrafoimagentamaño {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+}
+/*afreganos una imagen de fondo al parrafo,pero quiero repetir la imagen de forma horizontal*/
+#parrafoimagenrepetirhorizontal {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: repeat-x;
+  background-size: 30px;
+}
+/*afreganos una imagen de fondo al parrafo,pero quiero repetir la imagen de forma vertical*/
+#parrafoimagenrepetirvertical {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: repeat-y;
+  background-size: 30px;
+}
+
+/* agregamos una imagen de fondo al parrafo, pero quiero que este en el centro */
+#parrafoimagencentrar {
+  background-image: url("/img/html5ycss3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+/* agregamos una imagen de fondo al parrafo, pero quiero que este a la derecha */
+#parrafoimagenderecha {
+  background-image: url("/img/html5ycss3.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+/* agregamos una imagen de fondo al parrafo, pero quiero que este en la parte inferior */
+#parrafoimagensuperior {
+  background-image: url("/img/html5ycss3.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+/* agregamos una imagen de fondo al parrafo, pero quiero que este en la parte superior */
+#parrafoimageninferior {
+  background-image: url("/img/html5ycss3.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+/* agregamos una imagen de fondo al parrafo, pero quiero que este en la parte superior y a la derecha */
+#parrafoimagensuperiorderecha {
+  background-image: url("/img/html5ycss3.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+/* agregamos una imagen de fondo al parrafo, pero quiero que este en la parte superior y a la derecha */
+#parrafoimagensuperiorizquierdo {
+  background-image: url("/img/html5ycss3.png");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
